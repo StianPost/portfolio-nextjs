@@ -1,10 +1,4 @@
-html,
-body {
-  padding: 0;
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
-}
+@import url('https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600&family=Roboto:ital,wght@0,300;0,400;0,500;0,700;0,900;1,300;1,400;1,500;1,700&display=swap');
 
 a {
   color: inherit;
@@ -13,4 +7,45 @@ a {
 
 * {
   box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: 'Roboto', Tahoma, Geneva, Verdana, sans-serif;
+}
+h1 {
+  font-size: var(--size-xxl);
+}
+h2 {
+  font-size: var(--size-xl);
+}
+h3 {
+  font-size: var(--size-lg);
+}
+h4 {
+  font-size: var(--size-md);
+}
+
+.swiper {
+  width: 100%;
+  max-width: 700px;
+  padding: 50px;
+}
+
+.swiper-slide {
+  background-position: center;
+  background-size: cover;
+  width: 300px;
+  height: 300px;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  box-shadow: inset 2px 2px 5px black;
 }

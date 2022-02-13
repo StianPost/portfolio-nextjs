@@ -1,0 +1,9 @@
+[
+    {
+        "id" : 0,
+        "title" : "Omega Design",
+        "year" : 2021,
+        "description" : "Project exam: A website for luxurious watches, built using HTML, SCSS, JavaScript. Api: Strapi",
+        "img" : "link"
+    }
+]
