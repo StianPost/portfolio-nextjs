@@ -33,7 +33,7 @@ h4 {
 
 .swiper {
   width: 100%;
-  max-width: 700px;
+  max-width: 1100px;
   padding: 50px;
 }
 
@@ -47,5 +47,4 @@ h4 {
 .swiper-slide img {
   display: block;
   width: 100%;
-  box-shadow: inset 2px 2px 5px black;
 }

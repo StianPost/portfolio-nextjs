@@ -3,7 +3,42 @@
         "id" : 0,
         "title" : "Omega Design",
         "year" : 2021,
-        "description" : "Project exam: A website for luxurious watches, built using HTML, SCSS, JavaScript. Api: Strapi",
-        "img" : "link"
+        "description" : "Semester Project: A website for luxurious watches, with both front and backend. Built using HTML, SCSS, JavaScript. Api: Strapi",
+        "img" : "https://hopeful-sinoussi-ede96f.netlify.app/Postfolio%20imgs/Semester%20project.PNG"
+    },
+    {
+        "id" : 1,
+        "title" : "React Website",
+        "year" : 2021,
+        "description" : "Course Assignment: Trying out react for the first time",
+        "img" : "https://hopeful-sinoussi-ede96f.netlify.app/Postfolio%20imgs/react.jpg"
+    },
+    {
+        "id" : 2,
+        "title" : "Old Portfolio",
+        "year" : 2021,
+        "description" : "My old portfolio project, built using HTML, CSS and JS",
+        "img" : "https://hopeful-sinoussi-ede96f.netlify.app/Postfolio%20imgs/portfolio.jpg"
+    },
+    {
+        "id" : 3,
+        "title" : "Postal Fitness",
+        "year" : 2021,
+        "description" : "Project exam: Made a custom blog website, using wordpress as a headless api. Used using HTML, CSS and JS",
+        "img" : "https://hopeful-sinoussi-ede96f.netlify.app/Postfolio%20imgs/proj_exam.jpg"
+    },
+    {
+        "id" : 4,
+        "title" : "Aism",
+        "year" : 2020,
+        "description" : "My first semester project, a website for a museum, built using HTML, CSS and 5 lines of JS",
+        "img" : "https://hopeful-sinoussi-ede96f.netlify.app/Postfolio%20imgs/sem_proj.jpg"
+    },
+    {
+        "id" : 5,
+        "title" : "Game Hub",
+        "year" : 2020,
+        "description" : "First proper website I made, a static website using HTML and CSS",
+        "img" : "https://hopeful-sinoussi-ede96f.netlify.app/Postfolio%20imgs/Html-css-ca.PNG"
     }
 ]

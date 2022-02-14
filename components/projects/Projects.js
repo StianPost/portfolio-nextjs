@@ -11,10 +11,15 @@ import 'swiper/css/navigation';
 
 // import required modules
 import { EffectFlip, EffectCreative, Pagination, Navigation } from 'swiper';
+import array from '../../projArray.json';
+import { Projectheading, Projectinfo } from './Projects.style';
 
 export default function Projects() {
   return (
     <>
+      <Projectheading>
+        <h2>Projects</h2>
+      </Projectheading>
       <Swiper
         effect={'creative'}
         creativeEffect={{
@@ -32,24 +37,15 @@ export default function Projects() {
         navigation={true}
         loop={true}
         className='mySwiper'>
-        <SwiperSlide>
-          <img src='https://swiperjs.com/demos/images/nature-1.jpg' />
-        </SwiperSlide>
-        <SwiperSlide>
-          <img src='https://swiperjs.com/demos/images/nature-2.jpg' />
-        </SwiperSlide>
-        <SwiperSlide>
-          <img src='https://swiperjs.com/demos/images/nature-3.jpg' />
-        </SwiperSlide>
-        <SwiperSlide>
-          <img src='https://swiperjs.com/demos/images/nature-4.jpg' />
-        </SwiperSlide>
-        <SwiperSlide>
-          <img src='https://swiperjs.com/demos/images/nature-5.jpg' />
-        </SwiperSlide>
-        <SwiperSlide>
-          <img src='https://swiperjs.com/demos/images/nature-6.jpg' />
-        </SwiperSlide>
+        {array.map(({ id, title, year, img, description }) => (
+          <SwiperSlide key={id}>
+            <Projectinfo>
+              <p>{description}</p>
+              <span>{year}</span>
+            </Projectinfo>
+            <img src={img} alt={title} />
+          </SwiperSlide>
+        ))}
       </Swiper>
     </>
   );

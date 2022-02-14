@@ -9,6 +9,7 @@ import Navbar from '../components/nav/NavBar';
 import Skills from '../components/skills/Skills';
 import About from '../components/about/About';
 import Projects from '../components/projects/Projects';
+import Contact from '../components/contact/Contact';
 
 export default function Home() {
   return (
@@ -21,6 +22,7 @@ export default function Home() {
           <Skills />
           <About />
           <Projects />
+          <Contact />
         </Main>
       </Body>
     </>

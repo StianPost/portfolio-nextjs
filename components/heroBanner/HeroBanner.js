@@ -8,9 +8,9 @@ function HeroBanner() {
         Welcome to my <HeroPost>Post</HeroPost>folio
       </h1>
       <p>
-        Here's my portfolio, you'll find about me and all my amazing attributes,
-        a few of my older projects are on here along with my skills and
-        expertiese, hope you enjoy your time here.
+        Here is my portfolio, you will find about me and all my amazing
+        attributes, a few of my older projects are on here along with my skills
+        and expertiese, hope you enjoy your time here.
       </p>
     </Hero>
   );

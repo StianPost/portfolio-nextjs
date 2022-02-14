@@ -20,6 +20,7 @@ export const Navigation = styled.div`
   top: 30%;
   right: 0;
   padding: 8px 16px 0px 8px;
+  z-index: 2;
 
   @media (max-width: 768px) {
     top: 25px;

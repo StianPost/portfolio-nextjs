@@ -44,7 +44,7 @@ const GlobalStyle = createGlobalStyle`
   --color-black: #282828;
 
   --c-action: var(--color-secondary);
-  --c-danger: var(--color-quarternary);
+  --c-danger: var(--color-quaternary);
   --c-success: var(--color-tertiary);
   --c-info: var(--color-tertiary);
   --c-bg: var(--color-primary);
