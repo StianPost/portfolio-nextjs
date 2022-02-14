@@ -54,35 +54,12 @@ const GlobalStyle = createGlobalStyle`
   --c-text--inverse: var(--color-black);
   --c-text--emphasys: var(--color-secondary);
 
-  /* RADIUS */
-
-  --radius-base: 6px;
-  --radius-sm: 4px;
-  --radius-md: 8px;
-  --radius-lg: 10px;
-
-  /* Animation speed */
-
-  --speed-base: 300ms;
-  --speed-fast: 120ms;
-  --speed-medium: 200ms;
-  --speed-slow: 500ms;
-  --animate-duration: var(--speed-base);
-  --animate-delay: var(--speed-fast);
-
   /* Z-index */
 
   --z-base: 0;
   --z-ground: 1;
   --z-ceiling: 10;
   --z-sky: 20;
-
-  /* Elevation */
-
-  --shadow-base: 0 2px 2px 0 rgb(0 0 0 / 14%);
-  --shadow-1: 0 3px 4px 0 rgb(0 0 0 / 14%);
-  --shadow-2: 0 5px 6px 0 rgb(0 0 0 / 16%);
-  --shadow-3: 0 8px 10px 0 rgb(0 0 0 / 22%);
 
   ${media.greaterThan('huge')`
     --font-size-base: 18px;
