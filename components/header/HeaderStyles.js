@@ -4,11 +4,11 @@ import Postal_Logo from '../../assets/img/Postal_Logo.png';
 export const Wrapper = styled.header`
   z-index: 1;
   position: fixed;
-  top: 25px;
-  left: 25px;
+  top: var(--size-sm);
+  left: var(--size-sm);
 `;
 
 export const LogoContainer = styled.div`
-  width: 125px;
+  width: 100px;
   cursor: pointer;
 `;

@@ -9,4 +9,25 @@ export const Contactinfo = styled.div`
   width: 100%;
   max-width: 1000px;
   margin: auto;
+  margin-bottom: var(--size);
+`;
+
+export const Emailcontainer = styled.div`
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  p {
+    margin-left: var(--size-sm);
+  }
+`;
+
+export const Iconcontainer = styled.div`
+  width: 100%;
+  max-width: 900px;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  margin-top: var(--size-sm);
+  margin-bottom: var(--size);
 `;

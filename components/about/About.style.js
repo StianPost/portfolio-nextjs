@@ -20,6 +20,9 @@ export const AboutText = styled.div`
   h3 {
     margin-bottom: var(--size-sm);
   }
+  p {
+    margin-bottom: var(--size-sm);
+  }
 
   @media (max-width: 768px) {
     width: 100%;

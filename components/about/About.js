@@ -12,13 +12,18 @@ function About() {
         <AboutText>
           <h3>This is me!</h3>
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-            aliquip ex ea commodo consequat. Duis aute irure dolor in
-            reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-            pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-            culpa qui officia deserunt mollit anim id est laborum.
+            Hello there, my name is Stian Post, I am a front end developer. I am
+            still learning and will be updating this site as I go. Right now I
+            am studying on Noroff, it being my second year, while trying to get
+            a developer job on the side. Though I can do design, I am more
+            skilled in the programming department. I really enjoy coding in
+            Javascript, and am now learning how to properly utilize
+            React/NextJS.
+          </p>
+          <p>
+            For those of you who is wondering, on the free time I enjoy working
+            out and cooking. Not even I can sit infront of a computer screen
+            24/7.
           </p>
         </AboutText>
       </AboutInfo>

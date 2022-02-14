@@ -48,3 +48,14 @@ h4 {
   display: block;
   width: 100%;
 }
+
+.icons {
+  font-size: 2rem;
+  color: var(--c-text--emphasys);
+}
+.icons:hover {
+  cursor: pointer;
+}
+.bottomIcon {
+  margin: 0px var(--size-xs);
+}
