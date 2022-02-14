@@ -13,6 +13,9 @@ import Contact from '../components/contact/Contact';
 export default function Home() {
   return (
     <>
+      <Head>
+        <title>Postfolio</title>
+      </Head>
       <Body>
         <Header />
         <Main>
