@@ -1,15 +1,13 @@
-import React from 'react';
-import { IconName } from 'react-icons/fa';
-import Link from 'next/link';
+import React from "react";
+import Link from "next/link";
 
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import {
   Contactheader,
   Contactinfo,
   Iconcontainer,
   Emailcontainer,
-} from './Contact.style';
-import { FaGithub, FaLinkedinIn, FaEnvelope } from 'react-icons/fa';
+} from "./Contact.style";
+import { FaGithub, FaLinkedinIn, FaEnvelope } from "react-icons/fa";
 
 function Contact() {
   return (
@@ -24,18 +22,18 @@ function Contact() {
         </p>
       </Contactinfo>
       <Emailcontainer>
-        <FaEnvelope className='icons' />
+        <FaEnvelope className="icons" />
         <p>stianpost@hotmail.com</p>
       </Emailcontainer>
       <Iconcontainer>
-        <Link href='https://github.com/StianPost' passHref>
+        <Link href="https://github.com/StianPost" passHref>
           <a>
-            <FaGithub className='icons bottomIcon' />
+            <FaGithub className="icons bottomIcon" />
           </a>
         </Link>
-        <Link href='https://www.linkedin.com/in/stian-post-a211201b5/' passHref>
+        <Link href="https://www.linkedin.com/in/stian-post-a211201b5/" passHref>
           <a>
-            <FaLinkedinIn className='icons bottomIcon' />
+            <FaLinkedinIn className="icons bottomIcon" />
           </a>
         </Link>
       </Iconcontainer>
